@@ -21,7 +21,7 @@ module.exports = class PizzaOrder extends Order{
         switch(this.stateCur){
             case OrderState.WELCOMING:
                 this.stateCur = OrderState.SIZE;
-                aReturn.push("Welcome to Fratello's pizza.");
+                aReturn.push("Welcome to Rakesh's pizza.");
                 aReturn.push("What size pizza would you like?");
                 break;
             case OrderState.SIZE:
